@@ -11,7 +11,7 @@ app.get("/", (_req, res) => {
 
 // Route Andre
 app.get("/andre", (_req, res) => {
-  res.send("Ola");
+  res.send("I'm Andre");
 });
 
 // Route Vitor
