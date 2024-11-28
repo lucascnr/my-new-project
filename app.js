@@ -9,8 +9,18 @@ app.get("/", (_req, res) => {
   res.send("Hello World!");
 });
 
+// Route Andre
 app.get("/andre", (_req, res) => {
   res.send("Ola");
+});
+
+// Route Vitor
+app.get("/vitor", (_req, res) => {
+  res.send("I´m Vitor!!");
+});
+
+app.get("/lucas", (_, res) => {
+  res.send("I'm Lucas.");
 });
 
 // Start the server
