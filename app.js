@@ -9,6 +9,11 @@ app.get("/", (_req, res) => {
   res.send("Hello World!");
 });
 
+// Route Andre
+app.get("/andre", (_req, res) => {
+  res.send("I'm Andre");
+});
+
 // Route Vitor
 app.get("/vitor", (_req, res) => {
   res.send("I´m Vitor!!");
